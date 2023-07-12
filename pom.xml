@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lpras</groupId>
-	<artifactId>scheduling-tasks</artifactId>
+	<artifactId>scheduler</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>scheduling-tasks</name>
+	<name>spring-scheduling-tasks</name>
 	<description>Demo project for Spring Boot Scheduling</description>
 	<properties>
 		<java.version>17</java.version>
