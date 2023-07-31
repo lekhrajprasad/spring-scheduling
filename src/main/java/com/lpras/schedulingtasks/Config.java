@@ -10,7 +10,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 public class Config {
 	
 	  @Bean
-	  public Executor taskExecutor() {
+	  public Executor taskScheduler() {
 	    ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
 	    executor.setCorePoolSize(10);
 	    executor.setMaxPoolSize(10);
@@ -20,5 +20,10 @@ public class Config {
 	    executor.initialize();
 	    return executor;
 	  }
+	  //taskExecutor,taskScheduler
+		/*
+		 * @Bean public KVRepository<String, Object> rockDbRepo(){ return new
+		 * RocksDBRepository(); }
+		 */
 
 }
